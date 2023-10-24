@@ -5,6 +5,9 @@ Collatz es un servicio REST que recibe una cadena, y responde en un objeto JSON 
 
 ## Instrucciones para ejecutar
 
+### Java 17 es un requisito para la compilacion.
+
+
 ### Local (sin Docker)
 
 Paso a paso
