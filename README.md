@@ -90,7 +90,7 @@ Paso a paso
 
    docker run -d -p 42000:6000 --name firstdockerimageaws dnielben/firstsprkwebapprepo
 
-8. Accede en una url similar a esta (la url específica depende de los valores de su maquina virtual EC2):
+8. Accede en una url similar a esta (la url específica depende de los valores de su maquina virtual EC2) a la aplicacion web:
 
    http://ec2-54-80-106-129.compute-1.amazonaws.com:35000
 
