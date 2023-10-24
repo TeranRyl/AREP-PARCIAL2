@@ -5,6 +5,32 @@ Collatz es un servicio REST que recibe una cadena, y responde en un objeto JSON 
 
 ## Instrucciones para ejecutar
 
+### Local (sin Docker)
+
+Paso a paso
+
+```
+1. Bajar el .ZIP del repositorio.
+
+2. Extraer el archivo comprimido.
+
+3. Abrir el Shell.
+
+4. Desde el Shell, muevase a la ubicacion donde extrajo el archivo .ZIP (Deberia estar dentro de la carpeta llamada  "AREP-PARCIAL2-master").
+
+5. Escriba "mvn clean install".
+
+6. Escriba java -cp "target/classes;target/dependency/* co.edu.escuelaing.app.Collatz
+
+   Si tiene linux, debe reemplazar ";" por ":".
+
+7. Abra su navegador web de y busque en una pestaña incognita:
+   
+   - "localhost:4567" - Cliente web.
+   - "localhost:4567/collatz?value=*numero a calcular collatz*" - Servicio GET
+
+```
+
 ### Local (utilizando Docker)
 
 Paso a paso
@@ -26,12 +52,14 @@ Paso a paso
 
 8. Abra su navegador web de y busque en una pestaña incognita:
    
-   - "localhost:4567" - Cliente web.
-   - "localhost:4567/collatz?value=*numero a calcular collatz*" - Servicio GET
+   - "localhost:34000" - Cliente web.
+   - "localhost:34000/collatz?value=*numero a calcular collatz*" - Servicio GET
 
 ```
 
 ### Despliegue en AWS
+
+Paso a paso
 
 ```
 
